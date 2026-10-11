@@ -131,18 +131,6 @@ export const Footer: React.FC = () => {
                   <span>MIT / CC0 License</span>
                 </a>
               </li>
-              <li className="pt-2 text-[11px] text-neutral-500">
-                UI components inspired by{' '}
-                <a
-                  href="https://reactbits.dev"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-neutral-400 hover:text-cyan-400 underline"
-                >
-                  React Bits
-                </a>
-                .
-              </li>
             </ul>
           </div>
         </div>

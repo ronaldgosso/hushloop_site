@@ -101,7 +101,14 @@ export const Navbar: React.FC = () => {
             rel="noopener noreferrer"
             className="hidden lg:flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 text-xs text-neutral-300 hover:border-cyan-500/40 hover:text-cyan-300 transition-all"
           >
-            <span className="w-2 h-2 rounded-full bg-cyan-400 animate-pulse" />
+            <img
+              src="./images/profile.png"
+              alt="Ronald Gosso"
+              className="w-4 h-4 rounded-full object-cover border border-cyan-400/60"
+              onError={(e) => {
+                (e.currentTarget as HTMLImageElement).style.display = 'none';
+              }}
+            />
             <span>Engineered by</span>
             <ShinyText text="Ronald Gosso" className="font-semibold text-white" />
           </a>

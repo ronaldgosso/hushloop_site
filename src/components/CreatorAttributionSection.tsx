@@ -29,16 +29,18 @@ export const CreatorAttributionSection: React.FC = () => {
                 {/* Creator Avatar & Lockup */}
                 <div className="relative shrink-0">
                   <div className="w-28 h-28 rounded-3xl bg-gradient-to-br from-cyan-400 via-teal-500 to-[#0077b6] p-[2px] shadow-glow-cyan">
-                    <div className="w-full h-full bg-[#0d1117] rounded-[22px] flex flex-col items-center justify-center p-3">
-                      <div className="w-12 h-12 rounded-2xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 font-display font-extrabold text-2xl">
-                        RG
-                      </div>
-                      <span className="text-[10px] font-mono text-cyan-300 mt-1 uppercase tracking-wider font-semibold">
-                        Author
-                      </span>
+                    <div className="w-full h-full bg-[#0d1117] rounded-[22px] overflow-hidden flex items-center justify-center">
+                      <img
+                        src="./images/profile.png"
+                        alt="Ronald Gosso - Author & Creator of HushLoop"
+                        className="w-full h-full object-cover object-center"
+                        onError={(e) => {
+                          (e.currentTarget as HTMLImageElement).style.display = 'none';
+                        }}
+                      />
                     </div>
                   </div>
-                  <div className="absolute -bottom-2 -right-2 p-1.5 rounded-xl bg-[#161b22] border border-white/10 text-cyan-400 shadow-md">
+                  <div className="absolute -bottom-2 -right-2 p-1.5 rounded-xl bg-[#161b22] border border-white/10 text-cyan-400 shadow-md" title="Author & Creator">
                     <Award className="w-4 h-4" />
                   </div>
                 </div>
