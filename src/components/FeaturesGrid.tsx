@@ -83,7 +83,7 @@ export const FeaturesGrid: React.FC = () => {
               </div>
 
               <div className="mt-6 pt-4 border-t border-white/5 flex items-center text-xs font-medium text-cyan-400/80">
-                <span>Verified in v1.1.5</span>
+                <span>Verified in v2.0.0</span>
               </div>
             </SpotlightCard>
           ))}

@@ -43,7 +43,7 @@ export const HeroSection: React.FC = () => {
             <MagnetButton href="#download" strength={15}>
               <div className="group relative inline-flex items-center gap-3 px-7 py-3.5 rounded-2xl bg-gradient-to-r from-cyan-400 via-cyan-500 to-teal-400 text-obsidian-950 font-bold text-sm shadow-glow-cyan hover:shadow-cyan-400/50 transition-all duration-300 active:scale-95">
                 <Download className="w-5 h-5 stroke-[2.3] transition-transform group-hover:-translate-y-0.5" />
-                <span>Download HushLoop v1.1.5</span>
+                <span>Download HushLoop v2.0.0</span>
                 <span className="text-[11px] px-2 py-0.5 rounded-full bg-black/15 font-mono">
                   Windows x64
                 </span>

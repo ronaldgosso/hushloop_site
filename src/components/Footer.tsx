@@ -29,7 +29,7 @@ export const Footer: React.FC = () => {
               </div>
               <span className="font-display font-bold text-lg text-white">HushLoop</span>
               <span className="text-[10px] font-mono px-2 py-0.5 rounded bg-cyan-500/10 text-cyan-400 border border-cyan-500/30">
-                v1.1.5
+                v2.0.0
               </span>
             </div>
             <p className="text-neutral-400 max-w-md text-xs leading-relaxed">

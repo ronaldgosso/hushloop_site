@@ -45,7 +45,7 @@ export const Navbar: React.FC = () => {
                 HushLoop
               </span>
               <span className="text-[10px] font-mono uppercase px-1.5 py-0.5 rounded bg-cyan-500/10 border border-cyan-500/30 text-cyan-400">
-                v1.1.5
+                v2.0.0
               </span>
             </div>
             <p className="text-[11px] text-neutral-400 hidden sm:block">
