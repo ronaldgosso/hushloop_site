@@ -9,20 +9,6 @@ export const HeroSection: React.FC = () => {
   return (
     <section id="hero" className="relative min-h-[92vh] pt-28 pb-16 flex items-center justify-center overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
-        {/* Top Announcement Pill */}
-        <div className="flex justify-center mb-6">
-          <div className="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-[#161b22]/90 border border-cyan-500/30 backdrop-blur-md shadow-glow-cyan text-xs">
-            <span className="flex h-2 w-2 relative">
-              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-cyan-400 opacity-75"></span>
-              <span className="relative inline-flex rounded-full h-2 w-2 bg-cyan-500"></span>
-            </span>
-            <span className="text-neutral-300">
-              Crafted by <strong className="text-white">Ronald Gosso</strong> for Windows 11
-            </span>
-            <span className="text-cyan-400/50">•</span>
-            <ShinyText text="Native Fluent Glassmorphism" className="text-cyan-400 font-medium" />
-          </div>
-        </div>
 
         {/* Main Headline */}
         <div className="text-center max-w-4xl mx-auto">
