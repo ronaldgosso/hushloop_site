@@ -31,7 +31,7 @@ export const DownloadSection: React.FC = () => {
                 <span className="text-[11px] font-mono px-2.5 py-1 rounded-full bg-cyan-500/20 text-cyan-300 border border-cyan-500/40">
                   Recommended
                 </span>
-                <span className="text-xs text-neutral-400 font-mono">v1.1.4 • ~84 MB</span>
+                <span className="text-xs text-neutral-400 font-mono">v1.1.5 • ~84 MB</span>
               </div>
 
               <div className="p-3 rounded-2xl bg-cyan-500/10 text-cyan-400 w-fit mb-4">
@@ -73,7 +73,7 @@ export const DownloadSection: React.FC = () => {
                 </div>
               </MagnetButton>
               <p className="text-[11px] text-center text-neutral-500 mt-2 font-mono">
-                HushLoop-Setup-1.1.4.exe
+                HushLoop-Setup-1.1.5.exe
               </p>
             </div>
           </SpotlightCard>
@@ -85,7 +85,7 @@ export const DownloadSection: React.FC = () => {
                 <span className="text-[11px] font-mono px-2.5 py-1 rounded-full bg-white/5 text-neutral-300 border border-white/10">
                   Instant Run
                 </span>
-                <span className="text-xs text-neutral-400 font-mono">v1.1.4 • ~84 MB</span>
+                <span className="text-xs text-neutral-400 font-mono">v1.1.5 • ~84 MB</span>
               </div>
 
               <div className="p-3 rounded-2xl bg-white/5 text-teal-400 w-fit mb-4">
@@ -127,7 +127,7 @@ export const DownloadSection: React.FC = () => {
                 </div>
               </MagnetButton>
               <p className="text-[11px] text-center text-neutral-500 mt-2 font-mono">
-                HushLoop-Portable-1.1.4.exe
+                HushLoop-Portable-1.1.5.exe
               </p>
             </div>
           </SpotlightCard>
@@ -139,7 +139,7 @@ export const DownloadSection: React.FC = () => {
                 <span className="text-[11px] font-mono px-2.5 py-1 rounded-full bg-white/5 text-neutral-300 border border-white/10">
                   IT Deployment
                 </span>
-                <span className="text-xs text-neutral-400 font-mono">v1.1.4 • ~94 MB</span>
+                <span className="text-xs text-neutral-400 font-mono">v1.1.5 • ~94 MB</span>
               </div>
 
               <div className="p-3 rounded-2xl bg-white/5 text-coral-400 w-fit mb-4">
@@ -181,7 +181,7 @@ export const DownloadSection: React.FC = () => {
                 </div>
               </MagnetButton>
               <p className="text-[11px] text-center text-neutral-500 mt-2 font-mono">
-                HushLoop-1.1.4.msi
+                HushLoop-1.1.5.msi
               </p>
             </div>
           </SpotlightCard>
