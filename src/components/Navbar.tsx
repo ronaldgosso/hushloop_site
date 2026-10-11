@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { Download, User, Volume2, Clock, Cpu } from 'lucide-react';
 import { GithubIcon } from './icons/GithubIcon';
-import { MagnetButton } from './reactbits/MagnetButton';
-import { ShinyText } from './reactbits/ShinyText';
+import { MagnetButton } from './motion/MagnetButton';
+import { ShinyText } from './motion/ShinyText';
 
 export const Navbar: React.FC = () => {
   const [scrolled, setScrolled] = useState(false);

@@ -1,9 +1,9 @@
 import React from 'react';
 import { Download, Waves, VolumeX, Shield, Play, ArrowRight, CheckCircle2 } from 'lucide-react';
-import { MagnetButton } from './reactbits/MagnetButton';
-import { BlurText } from './reactbits/BlurText';
-import { ShinyText } from './reactbits/ShinyText';
-import { DecryptedText } from './reactbits/DecryptedText';
+import { MagnetButton } from './motion/MagnetButton';
+import { BlurText } from './motion/BlurText';
+import { ShinyText } from './motion/ShinyText';
+import { DecryptedText } from './motion/DecryptedText';
 
 export const HeroSection: React.FC = () => {
   return (

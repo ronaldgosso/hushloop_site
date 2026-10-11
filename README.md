@@ -14,7 +14,7 @@
 
 ## ✨ Design & Visual Language
 
-Built with inspirations from **[React Bits](https://reactbits.dev/)** and the **Dentale EHR** desktop aesthetic:
+Engineered with custom interactive motion design and Windows 11 Fluent dark aesthetics:
 
 - **Interactive Canvas Particles (`ParticlesBackground`)**: Dynamic glowing particle mesh connecting with proximity lines and reacting to cursor physics.
 - **Atmospheric Aurora (`SoftAurora`)**: Fluid animated color mesh with deep obsidian, electric cyan (`#00F2FE`), and subtle coral tones.

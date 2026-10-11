@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Volume2, VolumeX, Radio, CloudRain, Bell, Waves } from 'lucide-react';
-import { SpotlightCard } from './reactbits/SpotlightCard';
+import { SpotlightCard } from './motion/SpotlightCard';
 
 type Preset = 'alpha' | 'rain' | 'chime';
 

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Heart, ExternalLink, ArrowUp } from 'lucide-react';
 import { GithubIcon } from './icons/GithubIcon';
-import { ShinyText } from './reactbits/ShinyText';
+import { ShinyText } from './motion/ShinyText';
 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {

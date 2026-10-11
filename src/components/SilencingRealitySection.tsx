@@ -1,6 +1,6 @@
 import React from 'react';
 import { AlertCircle, CheckCircle2, Shield, Keyboard, ExternalLink } from 'lucide-react';
-import { SpotlightCard } from './reactbits/SpotlightCard';
+import { SpotlightCard } from './motion/SpotlightCard';
 
 export const SilencingRealitySection: React.FC = () => {
   return (

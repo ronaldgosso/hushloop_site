@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout, Keyboard, Activity, Zap, VolumeX, Shield, Waves } from 'lucide-react';
-import { SpotlightCard } from './reactbits/SpotlightCard';
+import { SpotlightCard } from './motion/SpotlightCard';
 
 export const FeaturesGrid: React.FC = () => {
   const features = [

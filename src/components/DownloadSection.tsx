@@ -1,8 +1,8 @@
 import React from 'react';
 import { Download, Package, HardDrive, Building2, Check, ExternalLink, ShieldCheck } from 'lucide-react';
-import { SpotlightCard } from './reactbits/SpotlightCard';
-import { MagnetButton } from './reactbits/MagnetButton';
-import { ShinyText } from './reactbits/ShinyText';
+import { SpotlightCard } from './motion/SpotlightCard';
+import { MagnetButton } from './motion/MagnetButton';
+import { ShinyText } from './motion/ShinyText';
 
 export const DownloadSection: React.FC = () => {
   const GITHUB_RELEASE_BASE = 'https://github.com/ronaldgosso/hushloop/releases';

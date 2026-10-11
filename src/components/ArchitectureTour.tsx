@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Cpu, ShieldCheck, Clock, Zap, Database, ExternalLink } from 'lucide-react';
-import { SpotlightCard } from './reactbits/SpotlightCard';
+import { SpotlightCard } from './motion/SpotlightCard';
 
 export const ArchitectureTour: React.FC = () => {
   const [activeTab, setActiveTab] = useState<'timer' | 'silencer' | 'audio' | 'ledger'>('timer');

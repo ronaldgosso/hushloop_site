@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Play, Pause, RotateCcw, SkipForward, Volume2, VolumeX, ShieldAlert, Timer, CheckCircle } from 'lucide-react';
 import confetti from 'canvas-confetti';
-import { SpotlightCard } from './reactbits/SpotlightCard';
+import { SpotlightCard } from './motion/SpotlightCard';
 
 type Phase = 'focus' | 'short_break' | 'long_break';
 

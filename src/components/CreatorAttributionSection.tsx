@@ -1,9 +1,9 @@
 import { Code, User, Heart, ExternalLink, Terminal, Shield, Award } from 'lucide-react';
 import { GithubIcon } from './icons/GithubIcon';
-import { SpotlightCard } from './reactbits/SpotlightCard';
-import { TiltedCard } from './reactbits/TiltedCard';
-import { ShinyText } from './reactbits/ShinyText';
-import { MagnetButton } from './reactbits/MagnetButton';
+import { SpotlightCard } from './motion/SpotlightCard';
+import { TiltedCard } from './motion/TiltedCard';
+import { ShinyText } from './motion/ShinyText';
+import { MagnetButton } from './motion/MagnetButton';
 
 export const CreatorAttributionSection: React.FC = () => {
   return (

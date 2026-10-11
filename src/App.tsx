@@ -1,7 +1,7 @@
 import React from 'react';
-import { ParticlesBackground } from './components/reactbits/ParticlesBackground';
-import { SoftAurora } from './components/reactbits/SoftAurora';
-import { ClickSpark } from './components/reactbits/ClickSpark';
+import { ParticlesBackground } from './components/motion/ParticlesBackground';
+import { SoftAurora } from './components/motion/SoftAurora';
+import { ClickSpark } from './components/motion/ClickSpark';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
 import { InteractivePomodoroDemo } from './components/InteractivePomodoroDemo';
@@ -17,7 +17,7 @@ import { FloatingDock } from './components/FloatingDock';
 export const App: React.FC = () => {
   return (
     <div className="relative min-h-screen bg-[#090d12] text-[#e6edf3] selection:bg-cyan-500/30 selection:text-cyan-300">
-      {/* Background Interactive Layer (React Bits Inspirations) */}
+      {/* Background Interactive Layer */}
       <ParticlesBackground particleCount={48} speed={0.4} />
       <SoftAurora />
       <ClickSpark />
